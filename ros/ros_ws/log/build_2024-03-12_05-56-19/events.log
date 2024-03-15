@@ -1,0 +1,283 @@
+[0.000000] (-) TimerEvent: {}
+[0.021230] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.063473] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.086642] (-) TimerEvent: {}
+[0.201463] (-) TimerEvent: {}
+[0.309011] (-) TimerEvent: {}
+[0.414611] (-) TimerEvent: {}
+[0.523642] (-) TimerEvent: {}
+[0.649834] (-) TimerEvent: {}
+[0.759753] (-) TimerEvent: {}
+[0.868333] (-) TimerEvent: {}
+[0.985089] (-) TimerEvent: {}
+[1.105308] (-) TimerEvent: {}
+[1.217397] (-) TimerEvent: {}
+[1.324372] (-) TimerEvent: {}
+[1.434369] (-) TimerEvent: {}
+[1.546021] (-) TimerEvent: {}
+[1.656908] (-) TimerEvent: {}
+[1.790149] (-) TimerEvent: {}
+[1.905323] (-) TimerEvent: {}
+[2.014408] (-) TimerEvent: {}
+[2.164497] (-) TimerEvent: {}
+[2.281272] (-) TimerEvent: {}
+[2.400560] (-) TimerEvent: {}
+[2.511006] (-) TimerEvent: {}
+[2.631377] (-) TimerEvent: {}
+[2.759697] (-) TimerEvent: {}
+[2.868147] (-) TimerEvent: {}
+[2.982316] (-) TimerEvent: {}
+[3.105865] (-) TimerEvent: {}
+[3.212632] (-) TimerEvent: {}
+[3.319428] (-) TimerEvent: {}
+[3.424017] (-) TimerEvent: {}
+[3.551471] (-) TimerEvent: {}
+[3.656287] (-) TimerEvent: {}
+[3.764571] (-) TimerEvent: {}
+[3.874349] (-) TimerEvent: {}
+[3.981189] (-) TimerEvent: {}
+[4.085720] (-) TimerEvent: {}
+[4.199750] (-) TimerEvent: {}
+[4.304754] (-) TimerEvent: {}
+[4.438571] (-) TimerEvent: {}
+[4.548257] (-) TimerEvent: {}
+[4.659977] (-) TimerEvent: {}
+[4.777341] (-) TimerEvent: {}
+[4.891583] (-) TimerEvent: {}
+[5.037547] (-) TimerEvent: {}
+[5.148552] (-) TimerEvent: {}
+[5.269920] (-) TimerEvent: {}
+[5.381057] (-) TimerEvent: {}
+[5.494128] (-) TimerEvent: {}
+[5.610078] (-) TimerEvent: {}
+[5.716893] (-) TimerEvent: {}
+[5.825092] (-) TimerEvent: {}
+[5.934855] (-) TimerEvent: {}
+[6.042901] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[6.044655] (-) TimerEvent: {}
+[6.081984] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[6.122126] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros_ws/build/my_bot', '--', '-j4', '-l4'], 'cwd': '/home/ros/ros_ws/build/my_bot', 'env': OrderedDict([('CMAKE_PREFIX_PATH', '/home/ros/ros_ws/install/my_bot:/opt/ros/humble'), ('COLCON', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/ros/ros_ws/build/my_bot'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('SHELL', '/bin/bash'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X7'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/home/ros/ros_ws/install/my_bot:/opt/ros/humble'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-c7753530-4df5-419d-9b97-3ee72d4cbb6f.sock'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-eeed571bc7.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LANG', 'C.UTF-8'), ('DISPLAY', ':0'), ('PATH', '/opt/ros/humble/bin:/home/ros/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ROS_LOCALHOST_ONLY', '0'), ('TERM', 'xterm-256color'), ('ROS_VERSION', '2'), ('_', '/usr/bin/colcon'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c7753530-4df5-419d-9b97-3ee72d4cbb6f.sock'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/ros/ros_ws/install'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/node'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-165de910-9594-49e6-bf1f-82c4551bfd68.sock'), ('TERM_PROGRAM_VERSION', '1.82.0'), ('OLDPWD', '/home/ros'), ('HOME', '/home/ros'), ('BROWSER', '/home/ros/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/git/dist/askpass.sh'), ('HOSTNAME', 'szeyuan-desktop'), ('USER', 'ros')]), 'shell': False}
+[6.193983] (-) TimerEvent: {}
+[6.314087] (-) TimerEvent: {}
+[6.431255] (-) TimerEvent: {}
+[6.540885] (-) TimerEvent: {}
+[6.645951] (-) TimerEvent: {}
+[6.755375] (-) TimerEvent: {}
+[6.860130] (-) TimerEvent: {}
+[6.964896] (-) TimerEvent: {}
+[7.078119] (-) TimerEvent: {}
+[7.194365] (-) TimerEvent: {}
+[7.311723] (-) TimerEvent: {}
+[7.422097] (-) TimerEvent: {}
+[7.527111] (-) TimerEvent: {}
+[7.632136] (-) TimerEvent: {}
+[7.737059] (-) TimerEvent: {}
+[7.847419] (-) TimerEvent: {}
+[7.954492] (-) TimerEvent: {}
+[8.078946] (-) TimerEvent: {}
+[8.195229] (-) TimerEvent: {}
+[8.308017] (-) TimerEvent: {}
+[8.421130] (-) TimerEvent: {}
+[8.539951] (-) TimerEvent: {}
+[8.653157] (-) TimerEvent: {}
+[8.779904] (-) TimerEvent: {}
+[8.897898] (-) TimerEvent: {}
+[9.007499] (-) TimerEvent: {}
+[9.115710] (-) TimerEvent: {}
+[9.224148] (-) TimerEvent: {}
+[9.333683] (-) TimerEvent: {}
+[9.454991] (-) TimerEvent: {}
+[9.563403] (-) TimerEvent: {}
+[9.668095] (-) TimerEvent: {}
+[9.775952] (-) TimerEvent: {}
+[9.880822] (-) TimerEvent: {}
+[9.985947] (-) TimerEvent: {}
+[10.098757] (-) TimerEvent: {}
+[10.208679] (-) TimerEvent: {}
+[10.313729] (-) TimerEvent: {}
+[10.424835] (-) TimerEvent: {}
+[10.454838] (my_bot) CommandEnded: {'returncode': 0}
+[10.526066] (-) TimerEvent: {}
+[10.631271] (-) TimerEvent: {}
+[10.743088] (-) TimerEvent: {}
+[10.847899] (-) TimerEvent: {}
+[10.960660] (-) TimerEvent: {}
+[11.070273] (-) TimerEvent: {}
+[11.179823] (-) TimerEvent: {}
+[11.289482] (-) TimerEvent: {}
+[11.396106] (-) TimerEvent: {}
+[11.500947] (-) TimerEvent: {}
+[11.606685] (-) TimerEvent: {}
+[11.719972] (-) TimerEvent: {}
+[11.834962] (-) TimerEvent: {}
+[11.954978] (-) TimerEvent: {}
+[12.064914] (-) TimerEvent: {}
+[12.175213] (-) TimerEvent: {}
+[12.284563] (-) TimerEvent: {}
+[12.394194] (-) TimerEvent: {}
+[12.503759] (-) TimerEvent: {}
+[12.613223] (-) TimerEvent: {}
+[12.718142] (-) TimerEvent: {}
+[12.823257] (-) TimerEvent: {}
+[12.934026] (-) TimerEvent: {}
+[13.038880] (-) TimerEvent: {}
+[13.157780] (-) TimerEvent: {}
+[13.263302] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[13.274624] (-) TimerEvent: {}
+[13.385763] (-) TimerEvent: {}
+[13.497053] (-) TimerEvent: {}
+[13.601643] (-) TimerEvent: {}
+[13.714966] (-) TimerEvent: {}
+[13.822959] (-) TimerEvent: {}
+[13.938446] (-) TimerEvent: {}
+[13.971877] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros_ws/build/my_bot'], 'cwd': '/home/ros/ros_ws/build/my_bot', 'env': OrderedDict([('CMAKE_PREFIX_PATH', '/home/ros/ros_ws/install/my_bot:/opt/ros/humble'), ('COLCON', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/ros/ros_ws/build/my_bot'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('SHELL', '/bin/bash'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X7'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/home/ros/ros_ws/install/my_bot:/opt/ros/humble'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-c7753530-4df5-419d-9b97-3ee72d4cbb6f.sock'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-eeed571bc7.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LANG', 'C.UTF-8'), ('DISPLAY', ':0'), ('PATH', '/opt/ros/humble/bin:/home/ros/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ROS_LOCALHOST_ONLY', '0'), ('TERM', 'xterm-256color'), ('ROS_VERSION', '2'), ('_', '/usr/bin/colcon'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c7753530-4df5-419d-9b97-3ee72d4cbb6f.sock'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/ros/ros_ws/install'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/node'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-165de910-9594-49e6-bf1f-82c4551bfd68.sock'), ('TERM_PROGRAM_VERSION', '1.82.0'), ('OLDPWD', '/home/ros'), ('HOME', '/home/ros'), ('BROWSER', '/home/ros/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/git/dist/askpass.sh'), ('HOSTNAME', 'szeyuan-desktop'), ('USER', 'ros')]), 'shell': False}
+[14.039882] (-) TimerEvent: {}
+[14.153982] (-) TimerEvent: {}
+[14.269541] (-) TimerEvent: {}
+[14.383558] (-) TimerEvent: {}
+[14.491764] (-) TimerEvent: {}
+[14.596385] (-) TimerEvent: {}
+[14.714299] (-) TimerEvent: {}
+[14.740664] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.796136] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.822849] (-) TimerEvent: {}
+[14.871922] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ros_ws/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[14.895082] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ros_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[14.909158] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ros_ws/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[14.921640] (-) TimerEvent: {}
+[14.930439] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ros_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[14.949374] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ros_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[14.958772] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ros_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[14.966827] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ros_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[14.980682] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ros_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[14.993079] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ros_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[14.999366] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ros_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[15.007247] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ros_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[15.018253] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ros_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[15.024611] (-) TimerEvent: {}
+[15.031028] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ros_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[15.038452] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ros_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[15.044972] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ros_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[15.052110] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/ros/ros_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[15.125390] (-) TimerEvent: {}
+[15.233741] (-) TimerEvent: {}
+[15.338039] (-) TimerEvent: {}
+[15.444671] (-) TimerEvent: {}
+[15.554119] (-) TimerEvent: {}
+[15.564772] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ros_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[15.577969] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ros_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[15.594537] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ros_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[15.604338] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ros_ws/install/my_bot/share/my_bot/package.xml\n'}
+[15.654822] (-) TimerEvent: {}
+[15.707535] (my_bot) CommandEnded: {'returncode': 0}
+[15.756447] (-) TimerEvent: {}
+[15.899262] (-) TimerEvent: {}
+[16.004563] (-) TimerEvent: {}
+[16.117174] (-) TimerEvent: {}
+[16.222713] (-) TimerEvent: {}
+[16.341682] (-) TimerEvent: {}
+[16.455938] (-) TimerEvent: {}
+[16.568182] (-) TimerEvent: {}
+[16.678293] (-) TimerEvent: {}
+[16.791508] (-) TimerEvent: {}
+[16.907984] (-) TimerEvent: {}
+[17.016627] (-) TimerEvent: {}
+[17.125442] (-) TimerEvent: {}
+[17.232053] (-) TimerEvent: {}
+[17.341360] (-) TimerEvent: {}
+[17.457377] (-) TimerEvent: {}
+[17.563911] (-) TimerEvent: {}
+[17.669366] (-) TimerEvent: {}
+[17.776880] (-) TimerEvent: {}
+[17.886797] (-) TimerEvent: {}
+[17.995698] (-) TimerEvent: {}
+[18.107801] (-) TimerEvent: {}
+[18.225107] (-) TimerEvent: {}
+[18.339439] (-) TimerEvent: {}
+[18.446920] (-) TimerEvent: {}
+[18.569626] (-) TimerEvent: {}
+[18.713793] (-) TimerEvent: {}
+[18.825739] (-) TimerEvent: {}
+[18.934689] (-) TimerEvent: {}
+[19.088136] (-) TimerEvent: {}
+[19.204753] (-) TimerEvent: {}
+[19.319905] (-) TimerEvent: {}
+[19.433984] (-) TimerEvent: {}
+[19.543344] (-) TimerEvent: {}
+[19.654155] (-) TimerEvent: {}
+[19.797754] (-) TimerEvent: {}
+[19.914486] (-) TimerEvent: {}
+[20.030291] (-) TimerEvent: {}
+[20.180903] (-) TimerEvent: {}
+[20.307731] (-) TimerEvent: {}
+[20.426113] (-) TimerEvent: {}
+[20.534140] (-) TimerEvent: {}
+[20.638932] (-) TimerEvent: {}
+[20.743992] (-) TimerEvent: {}
+[20.848826] (-) TimerEvent: {}
+[20.953309] (-) TimerEvent: {}
+[21.057807] (-) TimerEvent: {}
+[21.162265] (-) TimerEvent: {}
+[21.267116] (-) TimerEvent: {}
+[21.374582] (-) TimerEvent: {}
+[21.479239] (-) TimerEvent: {}
+[21.583926] (-) TimerEvent: {}
+[21.697067] (-) TimerEvent: {}
+[21.805162] (-) TimerEvent: {}
+[21.915202] (-) TimerEvent: {}
+[22.019833] (-) TimerEvent: {}
+[22.124841] (-) TimerEvent: {}
+[22.234668] (-) TimerEvent: {}
+[22.342565] (-) TimerEvent: {}
+[22.452351] (-) TimerEvent: {}
+[22.556897] (-) TimerEvent: {}
+[22.671178] (-) TimerEvent: {}
+[22.776041] (-) TimerEvent: {}
+[22.882802] (-) TimerEvent: {}
+[22.989728] (-) TimerEvent: {}
+[23.096800] (-) TimerEvent: {}
+[23.206877] (-) TimerEvent: {}
+[23.323057] (-) TimerEvent: {}
+[23.447169] (-) TimerEvent: {}
+[23.559951] (-) TimerEvent: {}
+[23.680901] (-) TimerEvent: {}
+[23.791355] (-) TimerEvent: {}
+[23.906703] (-) TimerEvent: {}
+[24.018244] (-) TimerEvent: {}
+[24.142477] (-) TimerEvent: {}
+[24.265877] (-) TimerEvent: {}
+[24.383062] (-) TimerEvent: {}
+[24.497037] (-) TimerEvent: {}
+[24.612415] (-) TimerEvent: {}
+[24.718041] (-) TimerEvent: {}
+[24.826584] (-) TimerEvent: {}
+[24.935002] (-) TimerEvent: {}
+[25.051920] (-) TimerEvent: {}
+[25.161541] (-) TimerEvent: {}
+[25.271226] (-) TimerEvent: {}
+[25.382763] (-) TimerEvent: {}
+[25.500394] (-) TimerEvent: {}
+[25.620368] (-) TimerEvent: {}
+[25.731095] (-) TimerEvent: {}
+[25.845460] (-) TimerEvent: {}
+[25.952789] (-) TimerEvent: {}
+[26.075392] (-) TimerEvent: {}
+[26.191818] (-) TimerEvent: {}
+[26.315237] (-) TimerEvent: {}
+[26.451376] (-) TimerEvent: {}
+[26.561242] (-) TimerEvent: {}
+[26.675560] (-) TimerEvent: {}
+[26.780415] (-) TimerEvent: {}
+[26.890170] (-) TimerEvent: {}
+[26.998289] (-) TimerEvent: {}
+[27.103833] (-) TimerEvent: {}
+[27.211309] (-) TimerEvent: {}
+[27.352994] (-) TimerEvent: {}
+[27.482520] (-) TimerEvent: {}
+[27.604382] (-) TimerEvent: {}
+[27.733382] (-) TimerEvent: {}
+[27.857405] (-) TimerEvent: {}
+[27.990334] (-) TimerEvent: {}
+[28.114230] (-) TimerEvent: {}
+[28.123596] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[28.179108] (-) EventReactorShutdown: {}
